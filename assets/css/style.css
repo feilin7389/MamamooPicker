@@ -1,0 +1,151 @@
+ /*
+  * Name: Fei Lin
+  * Date: 03/06/2021
+  * Project 1 - ISTE-340
+  */
+
+
+
+/* css for body */
+body {
+	background-image: url("../images/mamamoo.jpg");
+	background-size:100%;
+	color:black;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 5em;
+	margin-right: 5em;
+	padding: 10px;
+	
+	
+	
+
+}
+
+
+main{
+	padding: 30px;
+	background-image: linear-gradient(to top, rgba(254, 173, 166, 0.95), rgba(245, 239, 239,0.95));
+}
+
+/* put line under the subtile*/
+#subtitle{
+	 border-bottom: 2px solid black;
+	 border-color: gray;
+	 padding: 1em;
+
+}
+
+
+
+/* put all text in the center*/
+h1 {
+	text-align: center;
+
+}
+
+h2 {
+	text-align: center;
+
+}
+
+h3 {
+	text-align: center;
+
+}
+
+
+p {
+	text-align: center;
+
+	
+}
+
+form {
+	text-align: center;
+
+
+}
+
+
+/* style for clear button*/
+#clear {
+	position:absolute; 
+	top: 1.5em; 
+	right: 6.8em;
+	background-color: black; /* Green */
+  	border: none;
+  	color: white;
+  	padding: 10px 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+  	
+	
+}
+
+
+/* style for submit button*/
+#submit {
+	background-color: black; /* Green */
+  	border: none;
+  	color: white;
+  	padding: 10px 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 14px;
+  	
+  	margin-top: 3em;
+
+}
+
+
+#submit:hover {
+  background-color: gray; 
+  color: white;
+}
+
+#clear:hover {
+  background-color: gray;
+  color: white;
+}
+
+/* size for image slides show and music video*/
+#slideshow{
+  	width: 500px;
+  	height: 300px;
+  	padding-top: 1em;
+
+
+}
+
+
+
+
+/* when screen size are less then 1024px*/
+@media only screen and (max-width: 1024px) {
+	/*change padding for body*/
+	body {
+		margin-left: 1em;
+		margin-right: 1em;
+	}
+	
+	/*change location for clear button*/
+	#clear {
+	position:absolute; 
+	top: 1em; 
+	right: 2em;
+	
+	}
+}
+
+/* when screen size are less then 768px*/
+@media only screen and (max-width: 768px) {
+	/* reset the size of slideshow and music video*/
+	#slideshow{
+  		width: 300px;
+
+	}
+}
+
